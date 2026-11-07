@@ -20,7 +20,17 @@ Chronos is my clock and date panel. I can choose 12- or 24-hour time, show secon
 
 Atmosphere is the weather panel. It brings current conditions and an hourly forecast to the desktop, including the chance of rain. Open-Meteo supplies the forecast, which normally refreshes every 15 minutes. If the connection fails, the last forecast stays visible with a stale label.
 
-The separate HomeCore monitoring skin shows Plex activity, server health and storage information from my home server. The clock, weather and music panels work independently of that connection.
+The clock, weather and music panels work independently of the HomeCore server.
+
+## Keeping an eye on the server
+
+The HomeCore monitoring widget brings Plex activity, server health and storage information from my home server onto the desktop. I can switch between Activity, System and Storage without opening the full dashboard.
+
+![HomeCore Rainmeter monitor showing its connected Activity view](images/homecore-monitor.png)
+
+*Activity confirms that Plex is online. The cinema is quiet because no streams are active.*
+
+It connects to [HomeCore](https://github.com/patrickmccabeie-dot/homecore), where I can open the wider media and server tools.
 
 ## Seeing and controlling my music
 
@@ -40,10 +50,6 @@ After confirming an output change, the audio helper can restart an already-runni
 
 Apps with their own fixed audio output may still need changing inside that app. The audio helper also needs to be running for the controls to work.
 
-![Audio widget reporting that its helper is offline](images/audio-helper-offline.png)
-
-*The offline message tells me why the audio controls are unavailable.*
-
 ## Making the desktop my own
 
 I load the panels I want, drag them into place and choose full, compact or minimal companion layouts. During the day I can check the forecast, see what is playing and switch audio without leaving the desktop.
@@ -53,6 +59,12 @@ Each companion loads independently, so I can keep a small arrangement rather tha
 ## Availability
 
 These are personal Rainmeter skins. The companion set has a local test package, but this page does not currently offer a public skin download. Larger layouts, mixed-scale monitors and sleep/resume still need more testing; media controls also depend on what the player shares with Windows.
+
+## If the audio controls are unavailable
+
+![Audio widget reporting that its helper is offline](images/audio-helper-offline.png)
+
+*The offline message points me towards the helper when the audio controls cannot connect.*
 
 ## Technology
 
